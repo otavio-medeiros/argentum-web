@@ -104,7 +104,7 @@ public class FiltraNegociacoesIT {
 
 		botaoFiltro.click();
 
-		Thread.sleep(2000L);
+		Thread.sleep(2050L);
 
 		linhasDaTabelaDeNotificacoes = driver.findElements(By
 				.xpath("//*[@id='tabelaNegociacoes']/div[2]/table/tbody/tr"));
