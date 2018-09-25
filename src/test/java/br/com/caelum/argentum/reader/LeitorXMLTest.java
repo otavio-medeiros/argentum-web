@@ -21,8 +21,7 @@ public class LeitorXMLTest {
 
 		List<Negociacao> negocios = leitor.carrega(xml);
 
-		// Assert.assertEquals(negocios.get(0).getPreco(), 43.5, 0.0001);
-		Assert.assertEquals(negocios.get(0).getPreco(), 43.6, 0.0001);
+		Assert.assertEquals(negocios.get(0).getPreco(), 43.5, 0.0001);
 		Assert.assertEquals(negocios.get(0).getQuantidade(), 1000);
 		Assert.assertEquals(negocios.size(), 1);
 	}
