@@ -112,7 +112,7 @@ public class FiltraNegociacoesIT {
 		int totalDeNotificacoesDepoisDoFiltroAplicado = linhasDaTabelaDeNotificacoes
 				.size();
 
-		Assert.assertFalse(totalDeNotificacoesDepoisDoFiltroAplicado < totalDeNotificacoesAntesDoFiltro);
+		Assert.assertTrue(totalDeNotificacoesDepoisDoFiltroAplicado < totalDeNotificacoesAntesDoFiltro);
 	}
 
 	private Date hojeMais10Dias() {
